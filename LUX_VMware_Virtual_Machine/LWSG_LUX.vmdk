@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 2097152 SPARSE "LWSG_LUX-s001.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "512"
+ddb.geometry.heads = "128"
+ddb.geometry.sectors = "32"
+ddb.longContentID = "625fe0fff6ae6e120b803d72fffffffe"
+ddb.uuid = "60 00 C2 94 80 d3 a1 aa-7a 77 47 68 8a dd 35 1f"
+ddb.virtualHWVersion = "21"

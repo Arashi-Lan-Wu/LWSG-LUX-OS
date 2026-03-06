@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 c9 fb 36 c4 3c 35 51-86 73 47 33 4c ca 09 65</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">LWSG_LUX.vmx</vmxPathName></VM></Foundry>

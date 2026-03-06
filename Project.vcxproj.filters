@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="AddTwo.asm" />
+    <MASM Include="bootloader.asm">
+      <Filter>system</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{55151242-a2e6-481a-b1f6-09caa6a9a4dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootloader.s">
+      <Filter>system</Filter>
+    </None>
+    <None Include="boot.ld">
+      <Filter>system</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kernel.c">
+      <Filter>system</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
